@@ -1,0 +1,100 @@
+.homePage{
+  height: 830px;
+  color: black;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.homePageActive{
+  animation-name: homePageAnimation;
+  animation-duration: 1s
+}
+@keyframes homePageAnimation {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.text{
+  top: 350px;
+  position: absolute;
+  height: 200px;
+  left: 7%;
+  width: 50%;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(179, 231, 245);
+  border-bottom-width: 1px;
+  cursor: default;
+}
+.hiE{
+  font-size: 35px;
+  letter-spacing: 2px;
+  padding-left: 20%;
+  display: block;
+  color: rgb(237, 240, 239);
+}
+.hiE span{
+  color: rgb(5, 184, 190);
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 5px 1px 5px rgba(196, 183, 183, 0.3) ;
+}
+.webD{
+  color: rgba(220, 220, 220, 0.612);
+  font-weight: 100;
+  font-size: 20px;
+  position: absolute;
+  padding: 10px 15%;
+}
+
+.myPicture{
+  background-color: rgba(69, 68, 68, 0.2);
+  position: absolute;
+  right: 10%;
+  top: 22%;
+  display: flex;
+  height: 65%;
+  width: 30%;
+  align-items: center;
+  justify-content: center ;
+  box-shadow:-10px 0px 20px rgba(179, 231, 245,0.2);
+}
+.myPictures{
+  width: 60%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media screen and (max-width : 780px) {
+
+.text{
+  top: 540px;
+  height: 212px;
+  left: 0%;
+  width: 100%;
+}
+
+.myPicture{
+  background-color: rgba(69, 68, 68, 0.2);
+  position: absolute;
+  right: 10%;
+  top: 100px;
+  display: flex;
+  height: 400px;
+  width: 80%;
+  align-items: center;
+  justify-content: center ;
+  box-shadow:-10px 0px 20px rgba(179, 231, 245,0.2);
+}
+.myPictures{
+  width: 60%;
+  max-width: 300px;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+ }
+ 

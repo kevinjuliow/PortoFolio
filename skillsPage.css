@@ -1,0 +1,316 @@
+.skillsPage{
+  margin-top: 100px;
+  height: 930px;
+  padding-top: 100px;
+  background-color: rgba(69, 68, 68, 0.2);
+  position: relative;
+  
+}
+.gridContainer{
+  padding-top: 100px;
+  display: none;
+  grid-auto-flow: column;
+  grid-auto-columns: 350px;
+  column-gap: 30px; 
+  margin: 0% 10%;
+  overflow-x:auto;
+  overscroll-behavior-inline: contain;
+  scroll-behavior: smooth;
+}
+.java{
+background-image: linear-gradient( rgba(144, 252, 252, 0.076) 70% , rgba(0, 0, 0, 0.09));
+height: 400px;
+box-shadow: 0 0 5px rgba(255, 255, 255, 0.228);
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+.java:hover , .html:hover , .css:hover , .js:hover , .react:hover , .python:hover , .sql:hover{
+  opacity: 0.8;
+  cursor: default;
+}
+.javaIcon{
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.javaLogo{
+  width: 200px;
+  opacity: 0.8;
+}
+.javaText{
+  color: white;
+  letter-spacing: 5px;
+  height: 30%;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  position: relative;
+}
+ 
+.html{
+  background-image: linear-gradient( rgba(144, 252, 252, 0.076) 70% , rgba(0, 0, 0, 0.09));
+  height: 400px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.228);
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+.htmlIcon{
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.htmlLogo{
+  width: 200px;
+  margin-bottom: 40px;
+  opacity: 0.8;
+}
+.htmlText{
+  color: white;
+  letter-spacing: 5px;
+  height: 30%;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.css{
+  background-image: linear-gradient( rgba(144, 252, 252, 0.076) 70% , rgba(0, 0, 0, 0.09));
+  height: 400px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.228);
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+.cssIcon{
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cssLogo{
+  width: 200px;
+  height: 185px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+
+}
+.cssText{
+  color: white;
+  letter-spacing: 5px;
+  height: 30%;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.js{
+  background-image: linear-gradient( rgba(144, 252, 252, 0.076) 70% , rgba(0, 0, 0, 0.09));
+  height: 400px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.228);
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+.jsIcon{
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+
+}
+.jsLogo{
+  width: 170px;
+  border-radius: 10px;
+}
+.jsText{
+  color: white;
+  letter-spacing: 5px;
+  height: 30%;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.react{
+  background-image: linear-gradient( rgba(144, 252, 252, 0.076) 70% , rgba(0, 0, 0, 0.09));
+  height: 400px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.228);
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+.reactIcon{
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  position: relative;
+  opacity: 0.8;
+}
+.reactLogo{ 
+  width: 170px;
+  height: 170px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: 10px;
+  object-position: center;
+}
+.reactText{
+  color: white;
+  letter-spacing: 5px;
+  height: 30%;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.python{
+  background-image: linear-gradient( rgba(144, 252, 252, 0.076) 70% , rgba(0, 0, 0, 0.09));
+  height: 400px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.228);
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+.pythonIcon{
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  position: relative;
+  opacity: 0.8;
+}
+.pythonLogo{ 
+  width: 170px;
+  height: 170px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: 10px;
+  object-position: center;
+}
+.pythonText{
+  color: white;
+  letter-spacing: 5px;
+  height: 30%;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.sql{
+  background-image: linear-gradient( rgba(144, 252, 252, 0.076) 70% , rgba(0, 0, 0, 0.09));
+  height: 400px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.228);
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+.sqlIcon{
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  position: relative;
+  opacity: 0.8;
+}
+.sqlLogo{ 
+  width: 170px;
+  height: 170px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: 10px;
+  object-position: center;
+}
+.sqlText{
+  color: white;
+  letter-spacing: 5px;
+  height: 30%;
+  font-family: 'Roboto', sans-serif;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.arrowBtn{
+  position: absolute;
+  width: 70px;
+  font-size: 50px;
+  height: 70px;
+  border-radius: 1000px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  right: 7%;
+  top: 350px;
+  border-style: none;
+  border-width: 0px;
+  opacity: 0.2;
+  cursor: pointer;
+  transition: .2s;
+}
+.arrowBtn:hover{
+  opacity: 0.1;
+}
+
+.skills{
+  font-size: 85px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-top: 5%;
+  letter-spacing: 5px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  display: none;
+  font-family: 'Roboto', sans-serif;
+  cursor: default;
+}
+
+.skillsActive{
+  display: grid;
+  animation-name: skillGridAnimation;
+  animation-duration: 2s;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.skillTextActive{
+  display: block;
+  animation-name: skillTextAnimation;
+  animation-duration: 2s;
+}
+
+@keyframes skillGridAnimation {
+  0%{
+    opacity: 0;
+    margin-right: 1000px;
+  }
+  100%{
+    opacity: 1;
+    margin-right: 10%;
+  }
+}
+@keyframes skillTextAnimation {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width:780px) {
+  .gridContainer{
+    grid-auto-columns: 250px;
+  }
+  .arrowBtn{
+    width: 50px;
+    height: 50px;
+    right: 2%;
+  }
+}
