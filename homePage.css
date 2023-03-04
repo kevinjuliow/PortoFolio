@@ -75,6 +75,7 @@
   height: 212px;
   left: 0%;
   width: 100%;
+  border-bottom-width: 0;
 }
 
 .myPicture{
